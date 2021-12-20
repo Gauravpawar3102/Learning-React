@@ -4,9 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+function Greeting() {
+  return (
+    <h4>
+      This is john's code and i(Gaurav) learning to build my first component
+    </h4>
+  );
+}
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Greeting />
   </React.StrictMode>,
   document.getElementById('root')
 );
